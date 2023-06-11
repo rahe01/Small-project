@@ -1,0 +1,10 @@
+#Merge the pdf
+from PyPDF2 import PdfMerger
+Allpdf= ['1.pdf','2.pdf']
+ourmerger = PdfMerger()
+
+for NewPdf in Allpdf:
+    ourmerger.append(NewPdf)
+
+ourmerger.write('Rahe.pdf')
+ourmerger.close()
