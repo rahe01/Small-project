@@ -1,0 +1,14 @@
+import random
+randomnumber= random.randrange(1,200)
+# print(randomnumber)
+userinput= int(input('guse the number:'))
+
+if userinput > randomnumber:
+    print(randomnumber)
+    print('The number is too high')
+elif randomnumber> userinput:
+    print(randomnumber)
+    print('The number is too low ')
+else:
+    print(randomnumber)
+    print('you matched the number')
