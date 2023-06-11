@@ -1,0 +1,4 @@
+name= input("What is your name:")
+classs = input('which class do you read:')
+maritalstatus = input('are you single or married:')
+print(f'My cats name is {name},my cat read in {classs}, my cat is {maritalstatus}')
